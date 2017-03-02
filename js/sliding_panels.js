@@ -31,4 +31,7 @@ function changePanels(newIndex) {
   $('.sp .panels').animate({left:newPanelPosition},1000);
   $('.sp .panel_container').animate({height:newPanelHeight},1000);
 
+  $('.sp .tabs span').removeClass('selected');
+  $('.sp .tabs span:nth-child('+(newIndex+1)+')').addClass('selected');
+
 }
