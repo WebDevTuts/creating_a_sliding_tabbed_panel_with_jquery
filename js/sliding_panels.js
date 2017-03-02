@@ -5,6 +5,10 @@ var startPanel = 1;
 
 $(document).ready(function() {
 
+  $('.sp .tabs').css('display','block');
+  $('.sp .panel_container .panel').css({'position':'absolute','height':'400px'});
+  $('.sp .panel_container .panels').css({'position':'absolute','top':'0px'});
+
   window.panelWidth = $('.sp').width();
 
   $('.panel_container .panel').each(function(index) {
