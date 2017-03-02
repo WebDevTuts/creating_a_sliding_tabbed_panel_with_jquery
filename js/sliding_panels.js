@@ -1,6 +1,7 @@
 /* JavaScript Document */
 
 var panelWidth = 0;
+var startPanel = 1;
 
 $(document).ready(function() {
 
@@ -20,7 +21,10 @@ $(document).ready(function() {
       changePanels( $(this).index() );
     });
 
-  })
+  });
+
+  $('.sp .tabs span:nth-child('+window.startPanel+')').trigger('click');
+
 });
 
 function changePanels(newIndex) {
