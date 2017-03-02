@@ -1,0 +1,7 @@
+/*  CSS Document                             */
+
+/* styles */
+body { font: 14px Arial; margin: 0px; padding: 30px; background-color: #fff; }
+a, a:visited { color: #00f; }
+h1.fpo_text { color: #aaa; font-family: Times; font-size: 24px; }
+p.fpo_text { color: #aaa; font-family: Times; font-size: 16px; }
